@@ -19,7 +19,7 @@ this assignment we focus on Roman numbers using the additive notation only.
 
 ### Getting started
 
-1.  Clone your assignment repository we created for you on GitLab.tue.nl. This
+1.  Fork this assignment repository. This
     repository contains a Cabal project. Do not *manually* add
     files to or remove files from this project, nor change file names. All you
     have to do is to change the contents of
@@ -52,10 +52,8 @@ this assignment we focus on Roman numbers using the additive notation only.
     get something to work, comment out the problematic parts to keep the
     project building. Explain where and why you got stuck.
 
-4.  In completing this assignment, you commit and push your changes to your
-    assignment repository on GitLab.tue.nl. After the deadline, we
-    automatically collect your work. You do not need to submit anything to
-    Canvas.
+4.  In completing this assignment, you submit two files to Canvas:
+    `src/RomanNumbers.hs` and `test/Spec.hs`.
 
 Do not forget to have your names, student numbers, and date visible and at the
 top of all files you edit.
