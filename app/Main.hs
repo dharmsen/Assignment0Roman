@@ -8,7 +8,7 @@ main = do
         args <- getArgs
         let output = case args of
                   ["--r2i", r] -> show (r2i r)
-                  ["--i2r", i] -> i2r  (read i)
+                  ["--i2r", i] -> i2r  (read i :: Int)
                   ["--help"]   -> usageMsg 
                   _            -> errorMsg
         putStrLn output
