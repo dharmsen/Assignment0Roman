@@ -1,0 +1,32 @@
+cabal-version:        3.4
+name:                 RomanNumerals
+version:              0.0.0.1
+author:               Huub de Beer
+maintainer:           h.t.d.beer@tue.nl
+extra-source-files:   README.md
+
+executable RomanNumerals
+    main-is:          Main.hs
+    build-depends:    base ^>=4.15.0.0,
+                      RomanNumerals
+    hs-source-dirs:   app
+    default-language: Haskell2010
+
+library
+    exposed-modules:  RomanNumbers
+    build-depends:    base ^>=4.15.0.0
+    hs-source-dirs:   src
+    default-language: Haskell2010
+    ghc-options:      -Wall
+
+test-suite RomanNumerals-test
+    default-language: Haskell2010
+    type:             exitcode-stdio-1.0
+    hs-source-dirs:   test
+    main-is:          Spec.hs
+    build-depends:    
+                      base ^>=4.15.0.0,
+                      hspec,
+                      QuickCheck,
+                      RomanNumerals,
+    ghc-options:      -Wall
