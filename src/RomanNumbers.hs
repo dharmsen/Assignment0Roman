@@ -2,7 +2,7 @@
 Module      : RomanNumbers
 Description : Convert Roman numbers to integers and the other way around.
 Copyright   : Raymen van Veldhoven (1439499)
-              Dalton Harmsen (ID)
+              Dalton Harmsen (1293885)
 
 RomanNumbers is a module to convert Roman numbers to integers and vice versa. Roman numbers are represented by the characters 'M', 'D', 'C', 'L', 'X', 'V', and 'I'
 
